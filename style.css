@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "urbanist" ,sans-serif;
+}
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primery:#1c1c1c;
+    --bs-main-color:white;
+    --bs-main-primary:white;
+    --bs-secondary-color: rgb(48, 186, 231);
+    --bs-supporting-color:rgb(228, 41, 235);
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'lexenda Deca' sans-serif;
+    color: var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+    
+}
+button,a{
+    letter-spacing: 0.03rem;
+    font-size: 1.1rem !important;
+   
+}
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+}
+.common-titel{
+    margin-bottom: 4.2rem;
+}
+/* hero-section start */
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.common-section{
+        padding: 0 0 9rem;
+ }
+
+.hero-video--section{
+    max-width:100%;
+    height:auto ;
+    width: 30rem;
+    border-radius: 2rem;
+}
+.bg-color{
+    background-color: var(--bs-dark-color);
+}
+
+.nav-link{
+    color: var(--bs-main-color);
+}
+
+.nav-link:hover{
+    color: var(--bs-secondary-color) !important;
+}
+.text-light-grey{
+    color: var(--bs-main-color);
+}
+
+.custom-shape-divider-bottom-1754046639 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1754046639 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1754046639 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.service-section{
+    padding: 6rem 0 3rem 0 !important;
+}
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:var(--bs-secondary-color);
+    color: var(--bs-main-color);
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px !important;
+}
+.text-capitalize{
+    line-height: 3rem;
+    font-size: 3rem;
+}
+.more-info-section {
+    background-image: linear-gradient(rgba(22, 22, 22, 1) , rgba(22, 22, 22, 0.9)), url('image/pixcap.1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+ .more-info-section .img-section {
+    position: relative;
+ } 
+
+ .more-info-section .img-section img {
+    width: 70%;
+ } 
+ 
+ .carousel .card{
+    background-color: #262631;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+ }
+
+ .carousel-inner .card p{
+    color: var(--bs-main-color);
+ }
+
+ .carousel-inner .card:hover{
+     background-color: var(--bs-main-color);
+    color: var(--bs-dark-color);
+ }
+
+ .carousel-inner .card:hover p{
+    color: var(--bs-dark-color);
+ }
+ .fa-star{
+    color:var(--bs-supporting-color);
+ }
+ .carousel-indicators {
+    bottom: -20%;
+ }
+ .carousel-indicators [data-bs-target]{
+    width: .7rem;
+    height: .7rem;
+    background-color: var(--bs-secondary-color);
+ }
+ .card {
+  height: 100%;
+}
+.carousel-item .row {
+  justify-content: center;
+}
+.contect-section{
+    position: relative;
+}
+
+.custom-shape-divider-top-1754298764 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1754298764 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1754298764 .shape-fill {
+    fill: #FFFFFF;
+}
+.contect-section .common-titel{
+    padding-top: 6rem;
+}
+.container .form-section{
+    width: 50%;
+}
+@media screen and (max-width:998px) {
+        h1{
+            font-size: 2.4rem;
+        }
+        section .common-heading{
+            font-size: 2rem;
+        }
+        section .para-width{
+            width: auto;
+        } 
+        .hero-section{
+            height: 150%;
+        }
+        .hero-section img{
+            width: 100%;
+        }
+}
